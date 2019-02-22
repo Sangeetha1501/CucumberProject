@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.193813">
+<testcase classname="Login fucntionality module of automation practise web page" name="Verify the user login the application with valid credentials" time="0.182632">
+<system-out><![CDATA[Given User launch the browser and navigate to application...................passed
+When User click on Signin button............................................passed
+And User enter the valid credentials........................................passed
+And User click the signin button............................................passed
+Then User validate the username displayed in the header.....................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login fucntionality module of automation practise web page" name="Verify the user login the application with valid credentials" time="0.004665">
+<system-out><![CDATA[Given User launch the browser and navigate to application...................passed
+When User click on Signin button............................................passed
+And User enter the valid username "TestUser3"...............................passed
+And User enter the valid password "TestPassword1"...........................passed
+And User click the signin button............................................passed
+Then User validate the username displayed in the header.....................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login fucntionality module of automation practise web page" name="Verify the user login the application with valid credentials" time="0.001331">
+<system-out><![CDATA[Given User launch the browser and navigate to application...................passed
+When User click on Signin button............................................passed
+And User enter the valid username "User1"...................................passed
+And User enter the valid password "Pass1"...................................passed
+And User click the signin button............................................passed
+Then User validate the username "User1" displayed in the header.............passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login fucntionality module of automation practise web page" name="Verify the user login the application with valid credentials 2" time="0.001767">
+<system-out><![CDATA[Given User launch the browser and navigate to application...................passed
+When User click on Signin button............................................passed
+And User enter the valid username "User2"...................................passed
+And User enter the valid password "Pass2"...................................passed
+And User click the signin button............................................passed
+Then User validate the username "User2" displayed in the header.............passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login fucntionality module of automation practise web page" name="Verify the user login the application with valid credentials 3" time="0.003418">
+<system-out><![CDATA[Given User launch the browser and navigate to application...................passed
+When User click on Signin button............................................passed
+And User enter the valid username "User3"...................................passed
+And User enter the valid password "Pass3"...................................passed
+And User click the signin button............................................passed
+Then User validate the username "User3" displayed in the header.............passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
