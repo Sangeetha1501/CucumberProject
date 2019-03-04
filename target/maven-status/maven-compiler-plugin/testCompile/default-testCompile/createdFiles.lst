@@ -1,0 +1,9 @@
+com\amazon\am_helper\PageObjectManager.class
+com\amazon\pom\LoginPage.class
+com\amazon\testrunner\TestRunner.class
+com\amazon\am_helper\FileReaderManager.class
+com\amazon\stepdefinition\StepDefinition.class
+com\amazon\stepdefinition\Hooks.class
+com\baseclass\BaseClass.class
+com\amazon\pom\HomePage.class
+com\amazon\am_helper\ConfigReader.class

@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1365332,
+  "duration": 1229449,
   "status": "passed"
 });
 formatter.scenario({
@@ -88,7 +88,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_applciation()"
 });
 formatter.result({
-  "duration": 67575049206,
+  "duration": 17895159652,
   "status": "passed"
 });
 formatter.match({
@@ -101,14 +101,14 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "duration": 3004186431,
+  "duration": 3005333334,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_moushover_to_the_Hello_sign_in()"
 });
 formatter.result({
-  "duration": 2819906022,
+  "duration": 6060585739,
   "status": "passed"
 });
 formatter.match({
@@ -121,14 +121,14 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "duration": 3000512463,
+  "duration": 3002639768,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_sign_in_button_on_ajax_call()"
 });
 formatter.result({
-  "duration": 2830942766,
+  "duration": 8677988173,
   "status": "passed"
 });
 formatter.match({
@@ -141,14 +141,14 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_username_in_the_emailid_mobile_number(String)"
 });
 formatter.result({
-  "duration": 813968405,
+  "duration": 836076058,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_continue_button()"
 });
 formatter.result({
-  "duration": 1794802741,
+  "duration": 6520927537,
   "status": "passed"
 });
 formatter.match({
@@ -161,7 +161,7 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_entered_mobile_number_displays_on_the_mobile_number_feild(String)"
 });
 formatter.result({
-  "duration": 175684938,
+  "duration": 156672464,
   "status": "passed"
 });
 formatter.match({
@@ -174,14 +174,14 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_password_in_the_password_feild(String)"
 });
 formatter.result({
-  "duration": 398395920,
+  "duration": 540964638,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 30673525172,
+  "duration": 10284185971,
   "status": "passed"
 });
 formatter.match({
@@ -194,7 +194,7 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "duration": 5000266667,
+  "duration": 5008731826,
   "status": "passed"
 });
 formatter.match({
@@ -207,11 +207,11 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_username_Hello_harish_in_the_header_page(String)"
 });
 formatter.result({
-  "duration": 1269219460,
+  "duration": 3716364058,
   "status": "passed"
 });
 formatter.after({
-  "duration": 279652,
+  "duration": 4521275,
   "status": "passed"
 });
 });

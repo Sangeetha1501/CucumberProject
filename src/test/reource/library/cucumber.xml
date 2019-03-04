@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="119.358105">
-<testcase classname="End to End test cases for Amazon application" name="User login the applciation and verify user name in the header" time="119.358105">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="65.71138">
+<testcase classname="End to End test cases for Amazon application" name="User login the applciation and verify user name in the header" time="65.71138">
 <system-out><![CDATA[Given User launch the applciation...........................................passed
 And User wait for '3' seconds...............................................passed
 When User moushover to the Hello sign in....................................passed

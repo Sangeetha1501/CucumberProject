@@ -7,8 +7,8 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import com.amazon.baseclass.BaseClass;
-import com.amazon.helper.FileReaderManager;
+import com.amazon.am_helper.FileReaderManager;
+import com.baseclass.BaseClass;
 import com.cucumber.listener.Reporter;
 
 import cucumber.api.CucumberOptions;

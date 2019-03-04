@@ -3,7 +3,7 @@ package com.amazon.stepdefinition;
 import java.io.File;
 import java.io.IOException;
 
-import com.amazon.baseclass.BaseClass;
+import com.baseclass.BaseClass;
 import com.cucumber.listener.Reporter;
 
 import cucumber.api.Scenario;

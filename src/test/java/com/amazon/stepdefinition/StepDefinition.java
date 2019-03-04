@@ -6,10 +6,10 @@ import java.util.List;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-import com.amazon.baseclass.BaseClass;
-import com.amazon.helper.FileReaderManager;
-import com.amazon.helper.PageObjectManager;
+import com.amazon.am_helper.FileReaderManager;
+import com.amazon.am_helper.PageObjectManager;
 import com.amazon.testrunner.TestRunner;
+import com.baseclass.BaseClass;
 import com.cucumber.listener.Reporter;
 
 import cucumber.api.DataTable;
