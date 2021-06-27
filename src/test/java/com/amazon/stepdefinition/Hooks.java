@@ -13,10 +13,9 @@ import cucumber.api.java.Before;
 public class Hooks {
 
 	@Before
-	public void beforeHook(Scenario scenario) {
-		// TODO Auto-generated method stub
+	public void beforeHook() {
 
-		Reporter.assignAuthor("VijayKumar");
+		Reporter.assignAuthor("HariKRaja");
 	}
 
 	@After

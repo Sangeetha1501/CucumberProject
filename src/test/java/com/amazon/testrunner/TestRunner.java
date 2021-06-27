@@ -15,10 +15,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\java\\com\\amazon\\feature", glue = "com.amazon.stepdefinition", tags = "@LoginScenario", plugin = {
+@CucumberOptions(features = "src\\test\\java\\com\\amazon\\feature", glue = "com.amazon.stepdefinition", tags = "@loginData", plugin = {
 		"com.cucumber.listener.ExtentCucumberFormatter:src\\test\\reource\\library\\cucumber-reports\\report.html",
 		"pretty", "html:src\\test\\reource\\library", "json:src\\test\\reource\\library\\cucumber.json",
-		"junit:src\\test\\reource\\library\\cucumber.xml" },
+		"junit:src\\test\\reource\\library\\cucumber.xml"},
 
 		strict = true, monochrome = true, dryRun = false)
 public class TestRunner {

@@ -2,7 +2,6 @@ package com.baseclass;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.sql.Connection;
@@ -10,15 +9,11 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
-import javax.management.RuntimeErrorException;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
@@ -158,7 +153,7 @@ public class BaseClass {
 			waituntilElementVisibility(element);
 			if (elementDisplayed(element) && elementEnabled(element)) {
 				elementClear(element);
-				element.sendKeys(value);
+				element.sendKeys(value.toString());				
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -220,7 +215,7 @@ public class BaseClass {
 
 	public static void selectValuesfromDD(WebElement element, String options, String value) {
 		try {
-			waituntilElementVisibility(element);
+			//waituntilElementVisibility(element);
 			Select sc = new Select(element);
 			if (options.equalsIgnoreCase("value")) {
 				sc.selectByValue(value);
@@ -353,6 +348,7 @@ public class BaseClass {
 			throw new RuntimeException();
 
 		}
+		
 	}
 
 	public static void scrolltoBottomPage() {
@@ -525,7 +521,7 @@ public class BaseClass {
 			throws Throwable {
 
 		try {
-			File f = new File(System.getProperty("user.dir") + "\\src\\test\\reource\\library\\" + fileName + ".xlsx");
+			File f = new File(System.getProperty("user.dir") + "\\src\\test\\reource\\ExcelData\\" + fileName + ".xlsx");
 			FileInputStream fin = new FileInputStream(f);
 			Workbook wb = new XSSFWorkbook(fin);
 			Sheet sheet = wb.getSheet(sheetname);
@@ -541,7 +537,6 @@ public class BaseClass {
 			}
 			return string;
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new RuntimeException();
 
@@ -607,6 +602,37 @@ public class BaseClass {
 
 	public static void driverQuit() {
 		driver.quit();
+	}
+	
+public static void switchToInnerFrame() {
+	driver.switchTo().frame("");
+	int size = driver.findElements(By.tagName("iframe")).size();
+	System.out.println(size);
+	if(size>0) {
+		driver.switchTo().frame("id/web");
+		
+	}
+}
+	
+	public static void windowHandles() {
+		String cID = driver.getWindowHandle();
+		Set<String> pID = driver.getWindowHandles();
+		for(String handle : pID) {
+			if(!handle.equals(cID)) {
+				driver.switchTo().window(handle);
+			}
+		
+	}
+		
+	}
+	
+	public static void windowHandles(int index) {
+		String cID = driver.getWindowHandle();
+		Set<String> pID = driver.getWindowHandles();
+		List<String>windowIds = new ArrayList<String>();
+		windowIds.addAll(pID);
+		driver.switchTo().window(windowIds.get(index));
+		
 	}
 
 }

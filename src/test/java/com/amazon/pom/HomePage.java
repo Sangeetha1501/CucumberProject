@@ -11,7 +11,7 @@ public class HomePage {
 	@FindBy(id = "nav-logo")
 	private WebElement amazonLogo;
 
-	@FindBy(xpath = "//span[contains(text(),'Hello')]")
+	@FindBy(id = "nav-link-accountList")
 	private WebElement signIn;
 
 	@FindBy(xpath = "//div[@id='nav-flyout-ya-signin']//span")
